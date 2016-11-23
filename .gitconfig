@@ -1,0 +1,12 @@
+[user]
+	name = Elias Brange
+	email = elias.brange@gmail.com
+[color]
+	ui = always
+  diff = always
+[core]
+	editor = /usr/bin/vim
+  filemode = false
+  autocrlf = false
+  preloadindex = true
+  fscache = true

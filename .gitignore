@@ -1,0 +1,12 @@
+venv
+.vim/bundle
+.viminfo
+
+.cache
+
+.zsh-update
+.zsh_history
+.zcompdump*
+
+.ssh
+.oh-my-zsh
