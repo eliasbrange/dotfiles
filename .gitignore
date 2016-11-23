@@ -9,5 +9,9 @@ venv
 .zcompdump*
 .z
 
+src
+
+.ipython
+pip
 .ssh
 .oh-my-zsh
