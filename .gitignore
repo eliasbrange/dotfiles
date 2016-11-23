@@ -1,17 +1,23 @@
+# Python
 venv
+.ipython
+pip
+
+# vim
 .vim/bundle
 .viminfo
 
-.cache
-
+# zsh
+.oh-my-zsh
 .zsh-update
 .zsh_history
 .zcompdump*
+
+# Other
+.ssh
+.cache
 .z
 
+# Symlinks
+downloads
 src
-
-.ipython
-pip
-.ssh
-.oh-my-zsh
