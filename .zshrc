@@ -1,33 +1,34 @@
+# Set ZSH home. Used by oh-my-zsh
 export ZSH=$HOME/.oh-my-zsh
 
+# Set prompt theme
 ZSH_THEME="agnoster"
 
+# Inlcude oh-my-zsh plugins
 plugins=(git pip k)
 
+# Oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
-export TERM=xterm-256color
+# Remove username when on local
+DEFAULT_USER=Brange
 
-DEFAULT_USER=ebr
-
+# Import functions
 if [[ -r ~/.zsh/functions.zsh ]]; then
     . ~/.zsh/functions.zsh
 fi
 
+# Import aliases
 if [[ -r ~/.zsh/aliases.zsh ]]; then
     . ~/.zsh/aliases.zsh
 fi
 
-if [[ -r ~/.zsh/custom_tmux.zsh ]]; then
-    . ~/.zsh/custom_tmux.zsh
-fi
-
+# Import help
 if [[ -r ~/.zsh/help.zsh ]]; then
     . ~/.zsh/help.zsh
 fi
 
-# z
-. $HOME/.scripts/z.sh
-
-# zsh-syntax-highlighting
-source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Import plugins
+if [[ -r ~/.zsh/plugins.zsh ]]; then
+  . ~/.zsh/plugins.zsh
+fi
