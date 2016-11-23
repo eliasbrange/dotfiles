@@ -27,7 +27,7 @@ if [[ -r ~/.zsh/help.zsh ]]; then
 fi
 
 # z
-. /usr/bin/z.sh
+. $HOME/.scripts/z.sh
 
 # zsh-syntax-highlighting
 source $HOME/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
