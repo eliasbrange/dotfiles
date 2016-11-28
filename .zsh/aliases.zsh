@@ -25,6 +25,7 @@ alias ff='find . -type f -name'
 alias setuptng="pushd ~/src/limetng && winpty cmd /c setup.bat; popd"
 alias lisa='winpty.exe /cygdrive/c/src/limeworld/serveradmin/Server/Lundalogik.Lisa.Service.ConsoleHost/bin/Debug/LisaConsole.exe'
 alias wpy='winpty.exe python'
+alias ipy='winpty.exe ipython'
 alias wman='wpy manage.py'
 alias mkvenv='deactivate; rm -r venv; wpy -m virtualenv venv; av'
 alias lf='winpty.exe limefu'
