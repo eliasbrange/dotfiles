@@ -1,7 +1,9 @@
 # zsh stuff
 alias zshconf="subl ~/.zshrc ~/.zsh/"
 alias zshrl="source ~/.zshrc"
+alias open='cygstart'
 alias sudo='cygstart --action=runas'
+alias killall='taskkill /F /T /IM'
 
 alias subl="/cygdrive/c/Program\ Files/Sublime\ Text\ 3/subl"
 
