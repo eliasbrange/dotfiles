@@ -101,3 +101,10 @@ function cdb() {
         return 1
     fi
 }
+
+function egg() {
+    package=$1
+    if [ ! -z $package ]; then
+        pip uninstall $package -y && pip install -e "../$package"
+    fi
+}
