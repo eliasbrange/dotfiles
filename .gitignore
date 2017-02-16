@@ -18,8 +18,9 @@ pip
 # Other
 .ssh
 .cache
-.z
+.z*
 
 # Symlinks
 downloads
 src
+sublime
