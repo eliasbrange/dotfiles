@@ -34,6 +34,7 @@ alias lf='winpty.exe limefu'
 alias pipinst="pip install -r requirements.txt"
 alias pipe="pip install -e"
 alias pipu="pip uninstall -y"
+alias piplic="python 'C:\src\license.py'"
 
 # Tell tmux to always expect 256 colors
 alias tmux="tmux -2"
