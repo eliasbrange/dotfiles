@@ -37,3 +37,6 @@ alias pipu="pip uninstall -y"
 
 # Tell tmux to always expect 256 colors
 alias tmux="tmux -2"
+
+# git stuff
+alias glogg="git log --oneline --decorate --graph --first-parent"

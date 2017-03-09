@@ -10,3 +10,5 @@
   autocrlf = false
   preloadindex = true
   fscache = true
+[merge]
+	conflictstyle = diff3
