@@ -1,14 +1,14 @@
 [user]
-	name = Elias Brange
-	email = elias.brange@gmail.com
+  name = Elias Brange
+  email = elias.brange@gmail.com
 [color]
-	ui = always
+  ui = always
   diff = always
 [core]
-	editor = /usr/bin/vim
+  editor = /usr/bin/vim
   filemode = false
   autocrlf = false
   preloadindex = true
   fscache = true
 [merge]
-	conflictstyle = diff3
+  conflictstyle = diff3

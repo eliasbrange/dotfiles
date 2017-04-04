@@ -4,8 +4,9 @@ alias zshrl="source ~/.zshrc"
 alias open='cygstart'
 alias sudo='cygstart --action=runas'
 alias killall='taskkill /F /T /IM'
+alias kp="killall python.exe"
 
-alias subl="/cygdrive/c/Program\ Files/Sublime\ Text\ 3/subl"
+alias subl="/cygdrive/c/Program\ Files/Sublime\ Text\ 3/subl $@"
 
 # Greps
 alias grep='grep --color'
