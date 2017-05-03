@@ -24,3 +24,28 @@ pip
 downloads
 src
 sublime
+
+# folders
+Downloads
+
+# linux files
+.ICEauthority
+.Xauthority
+.bash_history
+.bash_logout
+.bashrc
+.config/
+.local/
+.mozilla/
+.profile
+.sudo_as_admin_successful
+.vboxclient-clipboard.pid
+.vboxclient-display.pid
+.vboxclient-draganddrop.pid
+.vboxclient-hostversion.pid
+.vboxclient-seamless.pid
+.wget-hsts
+.xsession-errors
+.xsession-errors.old
+Downloads/
+examples.desktop
