@@ -22,11 +22,16 @@ alias ff='find . -type f -name'
 
 # Dev stuff
 alias mkvenv='deactivate; rm -r venv; py -m virtualenv venv; av'
-alias lf='winpty.exe limefu'
+alias lf='limefu'
+alias pip="py -m pip"
 alias pipinst="pip install -r requirements.txt"
 alias pipe="pip install -e"
 alias pipu="pip uninstall -y"
-alias piplic="python 'C:\src\license.py"
+alias python="python3"
+alias py="python"
+alias ipy="ipython"
+
+
 
 # Tell tmux to always expect 256 colors
 alias tmux="tmux -2"
