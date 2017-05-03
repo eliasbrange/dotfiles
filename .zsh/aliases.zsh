@@ -30,6 +30,7 @@ alias pipu="pip uninstall -y"
 alias python="python3"
 alias py="python"
 alias ipy="ipython"
+alias wman="py manage.py"
 
 
 

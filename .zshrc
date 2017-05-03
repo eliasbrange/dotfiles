@@ -11,7 +11,7 @@ plugins=(git pip k zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # Remove username when on local
-DEFAULT_USER=Brange
+DEFAULT_USER=ebr
 
 # Import functions
 if [[ -r ~/.zsh/functions.zsh ]]; then
