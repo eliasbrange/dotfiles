@@ -21,7 +21,7 @@ alias fd='find . -type d -name'
 alias ff='find . -type f -name'
 
 # Dev stuff
-alias mkvenv='deactivate; rm -r venv; py -m virtualenv venv; av'
+alias mkvenv='deactivate; rm -r venv; /usr/bin/python3 -m virtualenv venv; av'
 alias lf='limefu'
 alias pip="py -m pip"
 alias pipinst="pip install -r requirements.txt"
