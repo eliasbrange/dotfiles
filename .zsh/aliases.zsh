@@ -31,7 +31,10 @@ alias python="python3"
 alias py="python"
 alias ipy="ipython"
 alias wman="py manage.py"
-
+alias dcd="docker-compose down"
+alias dcb="docker-compose build"
+alias dce="docker-compose exec"
+alias dcu="docker-compose up"
 
 
 # Tell tmux to always expect 256 colors
