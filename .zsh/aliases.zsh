@@ -1,4 +1,4 @@
-# zsh stuff
+    # zsh stuff
 alias zshconf="subl ~/.zshrc ~/.zsh/"
 alias zshrl="source ~/.zshrc"
 alias killall='taskkill /F /T /IM'
@@ -34,7 +34,8 @@ alias wman="py manage.py"
 alias dcd="docker-compose down"
 alias dcb="docker-compose build"
 alias dce="docker-compose exec"
-alias dcu="docker-compose up"
+alias dcu="docker-compose up -d"
+alias doco="docker-compose"
 
 
 # Tell tmux to always expect 256 colors
