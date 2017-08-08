@@ -1,14 +1,16 @@
 [user]
-  name = Elias Brange
-  email = elias.brange@gmail.com
+	name = Elias Brange
+	email = elias.brange@lundalogik.se
 [color]
-  ui = always
-  diff = always
+	ui = always
+	diff = always
 [core]
-  editor = /usr/bin/vim
-  filemode = false
-  autocrlf = false
-  preloadindex = true
-  fscache = true
+	editor = /usr/bin/vim
+	filemode = false
+	autocrlf = false
+	preloadindex = true
+	fscache = true
 [merge]
-  conflictstyle = diff3
+	conflictstyle = diff3
+[push]
+	default = simple
