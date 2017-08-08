@@ -21,9 +21,10 @@ alias fd='find . -type d -name'
 alias ff='find . -type f -name'
 
 # Dev stuff
-alias mkvenv='deactivate; rm -r venv; virtualenv venv; av'
+alias mkvenv='deactivate; rm -r venv; python -m venv venv; av'
 alias lf='limefu'
 alias pipinst="pip install -r requirements.txt"
+alias pip="pip3"
 alias pipe="pip install -e"
 alias pipu="pip uninstall -y"
 alias python="python3"
@@ -35,6 +36,7 @@ alias dcb="docker-compose build"
 alias dce="docker-compose exec"
 alias dcu="docker-compose up -d"
 alias doco="docker-compose"
+alias sudo="sudo "
 
 
 # Tell tmux to always expect 256 colors
