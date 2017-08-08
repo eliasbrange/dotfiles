@@ -25,7 +25,8 @@ downloads
 src
 sublime
 
-# folders
+# home folders
+Android
 Downloads
 Desktop
 Documents
@@ -36,6 +37,8 @@ Templates
 Videos
 
 # linux files
+.java
+.AndroidStudio*
 .ICEauthority
 .Private
 .Xauthority
