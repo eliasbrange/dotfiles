@@ -60,3 +60,6 @@ Videos
 .xsession-errors
 .xsession-errors.old
 examples.desktop
+.android
+.gksu.lock
+.gradle

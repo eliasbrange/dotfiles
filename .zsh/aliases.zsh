@@ -37,7 +37,7 @@ alias dce="docker-compose exec"
 alias dcu="docker-compose up -d"
 alias doco="docker-compose"
 alias sudo="sudo "
-
+alias tmsbox="tms /src/work/lime-box-app && tms /src/work/lime-box-base && tms /src/work/lime-box-c2 && tms /src/work/lime-box-dbbackup && tms /src/work/lime-box-import && tms /src/work/lime-box-proxy && tms /src/work/lime-box-search-indexer && tms /src/work/lime-box-sqlserver && tms /src/work/lime-box-webserver-base && tms /src/work/lime-box-sqlserver"
 
 # Tell tmux to always expect 256 colors
 alias tmux="tmux -2"
