@@ -63,3 +63,4 @@ examples.desktop
 .android
 .gksu.lock
 .gradle
+.crashlytics
