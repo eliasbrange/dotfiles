@@ -27,31 +27,33 @@ sublime
 
 # folders
 Downloads
+Desktop
+Documents
+Music
+Pictures
+Public
+Templates
+Videos
 
 # linux files
 .ICEauthority
+.Private
 .Xauthority
 .bash_history
 .bash_logout
 .bashrc
+.compiz/
 .config/
+.ecryptfs
+.gnome/
 .local/
 .mozilla/
+.pki/
 .profile
+.python_history
 .sudo_as_admin_successful
-.vboxclient-clipboard.pid
-.vboxclient-display.pid
-.vboxclient-draganddrop.pid
-.vboxclient-hostversion.pid
-.vboxclient-seamless.pid
+.tmux/
 .wget-hsts
 .xsession-errors
 .xsession-errors.old
-Downloads/
 examples.desktop
-.python_history
-.dmrc
-.gnome/
-.pki/
-.thunderbird/
-Pictures/
