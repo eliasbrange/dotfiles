@@ -36,6 +36,7 @@ alias dcb="docker-compose build"
 alias dce="docker-compose exec"
 alias dcu="docker-compose up -d"
 alias doco="docker-compose"
+alias dlt='docker-compose logs -f --tail 10'
 alias sudo="sudo "
 alias m="make"
 alias flake="python3 -m flake8"
@@ -46,3 +47,18 @@ alias tmux="tmux -2"
 # git stuff
 alias glogg="git log --oneline --decorate --graph --first-parent"
 alias gpp="git pull -p"
+alias gclean="git branch --no-color --merged | egrep -v \"(^\*|master)\" | xargs -r git branch -d"
+
+alias res='echo $?'
+alias fflake='docker run -v `pwd`:/src eliasbrange/flake'
+alias fdocs='docker run -v `pwd`:/src eliasbrange/flake check_docs.sh'
+alias fsec='docker run -v `pwd`:/src eliasbrange/flake check_sec.sh'
+
+# Terraform
+alias tfi='terraform init'
+alias tfp='terraform plan'
+alias tfa='terraform apply'
+
+# k8s
+alias mk='minikube'
+alias kc='kubectl'

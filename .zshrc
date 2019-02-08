@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="agnoster"
 
 # Inlcude oh-my-zsh plugins
-plugins=(git pip k zsh-syntax-highlighting)
+plugins=(git pip k zsh-syntax-highlighting kubectl)
 
 # Oh-my-zsh
 source $ZSH/oh-my-zsh.sh
