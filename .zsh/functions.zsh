@@ -109,3 +109,28 @@ function egg() {
         pip install -e "../$package"
     fi
 }
+
+function changes() {
+    service=$1
+    sha=$2
+
+    echo "Commits affecting service $service since $sha: \n"
+    git --no-pager log --invert-grep --grep="Updated python requirement files." --first-parent --pretty=format:"%C(auto,yellow)%h %C(auto,blue)%>(12,trunc)%ad %C(auto,reset)%s" --date=short $sha..origin/HEAD -- "box-$service"
+
+    echo "\n\n"
+
+    if [ -f box-$service/requirements/main.in ]; then
+        echo "Python packages changed in $service since $sha: \n"
+        git --no-pager diff --word-diff=porcelain -U0 bb15e77..HEAD -- "box-$service/requirements/main.txt" | grep "==" | grep -v "@@"
+    fi
+}
+
+function piplistimage() {
+    service=$1
+    tag=$2
+
+    prefix="docker.lundalogik.com/lundalogik/crm/"
+    image="$prefix$service:$tag"
+
+    docker run "$image" pip3 list | tail -n +3
+}
