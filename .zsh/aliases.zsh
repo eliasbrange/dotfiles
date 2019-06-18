@@ -1,8 +1,6 @@
-    # zsh stuff
+# zsh stuff
 alias zshconf="subl ~/.zshrc ~/.zsh/"
 alias zshrl="source ~/.zshrc"
-alias killall='taskkill /F /T /IM'
-alias kp="killall python.exe"
 
 # Greps
 alias grep='grep --color'
@@ -20,39 +18,21 @@ alias ll='ls -l --color'
 alias fd='find . -type d -name'
 alias ff='find . -type f -name'
 
-# Dev stuff
-alias mkvenv='deactivate; rm -r venv; python -m venv venv; av'
-alias lf='limefu'
-alias pipinst="pip install -r requirements.txt"
-alias pip="pip3"
-alias pipe="pip install -e"
-alias pipu="pip uninstall -y"
-alias python="python3"
-alias py="python"
-alias ipy="ipython"
-alias wman="py manage.py"
+# Docker compose stuff
+alias dc="docker-compose"
 alias dcd="docker-compose down"
 alias dcb="docker-compose build"
 alias dce="docker-compose exec"
 alias dcu="docker-compose up -d"
-alias doco="docker-compose"
 alias dlt='docker-compose logs -f --tail 10'
-alias sudo="sudo "
-alias m="make"
-alias flake="python3 -m flake8"
 
 # Tell tmux to always expect 256 colors
 alias tmux="tmux -2"
 
-# git stuff
+# Git stuff
 alias glogg="git log --oneline --decorate --graph --first-parent"
 alias gpp="git pull -p"
 alias gclean="git branch --no-color --merged | egrep -v \"(^\*|master)\" | xargs -r git branch -d"
-
-alias res='echo $?'
-alias fflake='docker run -v `pwd`:/src eliasbrange/flake'
-alias fdocs='docker run -v `pwd`:/src eliasbrange/flake check_docs.sh'
-alias fsec='docker run -v `pwd`:/src eliasbrange/flake check_sec.sh'
 
 # Terraform
 alias tfi='terraform init'
@@ -62,3 +42,8 @@ alias tfa='terraform apply'
 # k8s
 alias mk='minikube'
 alias kc='kubectl'
+
+# General stuff
+alias res='echo $?'
+alias sudo="sudo "
+alias m="make"

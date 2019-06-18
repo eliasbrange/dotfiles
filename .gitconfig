@@ -1,6 +1,7 @@
 [user]
 	name = Elias Brange
-	email = elias.brange@lundalogik.se
+	email = elias.brange@axis.com
+	signingKey = 61F0F04F2F1BF231DFEC9290BB060A3D37A91786
 [color]
 	ui = always
 	diff = always
@@ -14,3 +15,5 @@
 	conflictstyle = diff3
 [push]
 	default = simple
+[commit]
+	gpgSign = true

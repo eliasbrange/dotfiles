@@ -5,13 +5,13 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="agnoster"
 
 # Inlcude oh-my-zsh plugins
-plugins=(git pip k zsh-syntax-highlighting kubectl)
+plugins=(git pip kubectl)
 
 # Oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
 # Remove username when on local
-DEFAULT_USER=ebr
+DEFAULT_USER=eliasb
 
 # Import functions
 if [[ -r ~/.zsh/functions.zsh ]]; then
@@ -32,3 +32,16 @@ fi
 if [[ -r ~/.zsh/plugins.zsh ]]; then
   . ~/.zsh/plugins.zsh
 fi
+
+# Set proxies
+
+export HTTP_PROXY=http://wwwproxy.se.axis.com:3128
+export HTTPS_PROXY=http://wwwproxy.se.axis.com:3128
+
+export http_proxy=http://wwwproxy.se.axis.com:3128
+export https_proxy=http://wwwproxy.se.axis.com:3128
+
+# Set GO envs
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
